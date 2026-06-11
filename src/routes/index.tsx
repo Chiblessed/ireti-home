@@ -322,6 +322,7 @@ function Header() {
         </a>
         <nav aria-label="Primary" className="hidden gap-7 md:flex">
           <a href="#services" className="text-sm font-medium text-foreground hover:text-primary">Services</a>
+          <a href="#booking" className="text-sm font-medium text-foreground hover:text-primary">Book a visit</a>
           <a href="#contact" className="text-sm font-medium text-foreground hover:text-primary">Contact</a>
         </nav>
         <a
