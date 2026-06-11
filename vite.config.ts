@@ -15,4 +15,7 @@ export default defineConfig({
       input: "index.html",
     },
   },
+  optimizeDeps: {
+    exclude: ["@tanstack/start-server-core", "@tanstack/react-start"],
+  },
 });
