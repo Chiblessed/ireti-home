@@ -242,6 +242,30 @@ function HomePage() {
           </div>
         </section>
 
+        {/* BOOKING */}
+        <section id="booking" className="mx-auto max-w-7xl px-4 py-20 sm:px-6">
+          <div className="grid gap-12 lg:grid-cols-5 lg:items-start">
+            <div className="lg:col-span-2">
+              <p className="text-sm font-semibold uppercase tracking-wider text-accent">Book a visit</p>
+              <h2 className="mt-3 text-3xl font-semibold text-foreground sm:text-4xl">
+                Schedule care in three easy steps
+              </h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Pick a date and time, tell us where you live and the type of caregiver you need.
+                We’ll confirm your booking within 2 hours.
+              </p>
+              <ul className="mt-6 space-y-3 text-base text-muted-foreground">
+                <li>· Same-day visits available in Lagos, Abuja and Port Harcourt</li>
+                <li>· Free 15-minute consultation before any booking</li>
+                <li>· Cancel or reschedule anytime, at no cost</li>
+              </ul>
+            </div>
+            <div className="rounded-3xl bg-card p-6 shadow-[var(--shadow-soft)] ring-1 ring-border sm:p-8 lg:col-span-3">
+              <BookingForm />
+            </div>
+          </div>
+        </section>
+
         {/* CONTACT */}
         <section id="contact" className="bg-gradient-to-b from-background to-secondary/40 py-20">
           <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-5">
