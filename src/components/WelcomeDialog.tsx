@@ -28,7 +28,7 @@ export function WelcomeDialog() {
 
   return (
     <div
-      className="fixed inset-0 z-[60] flex items-center justify-center bg-foreground/50 p-4 animate-in fade-in"
+      className="fixed inset-0 z-60 flex items-center justify-center bg-foreground/50 p-4 animate-in fade-in"
       role="presentation"
       onClick={() => setOpen(false)}
     >
@@ -38,7 +38,7 @@ export function WelcomeDialog() {
         aria-labelledby="welcome-title"
         aria-describedby="welcome-desc"
         onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-md rounded-2xl bg-card p-7 shadow-[var(--shadow-glow)] animate-in zoom-in-95"
+        className="relative w-full max-w-md rounded-2xl bg-card p-7 shadow-(--shadow-glow) animate-in zoom-in-95"
       >
         <button
           ref={closeRef}
