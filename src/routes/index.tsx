@@ -16,6 +16,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { WelcomeDialog } from "@/components/WelcomeDialog";
 import { ContactForm } from "@/components/ContactForm";
+import { BookingForm } from "@/components/BookingForm";
 import heroImage from "@/assets/hero-caregiver.jpg";
 
 export const Route = createFileRoute("/")({
