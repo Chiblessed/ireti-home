@@ -10,6 +10,9 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   build: {
-    outDir: "dist/client",
+    outDir: "dist",
+    rollupOptions: {
+      input: "index.html",
+    },
   },
 });
